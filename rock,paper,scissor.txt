@@ -1,0 +1,26 @@
+person1=input("enter the person1")
+person2=input("enter the person2")
+if person1=="rock":
+    if person2=="rock":
+        print("match is tie")
+    elif person2=="paper":
+        print("person2 wins")
+    elif person2=="scissor":
+        print("person1 wins")
+elif person1=="paper":
+    if person2=="paper":
+        print("match is tie")
+    elif person2=="scissor":
+        print("person2 wins")
+    elif person2=="rock":
+        print("person1 wins")
+elif person1=="scissor":
+    if person2=="scissor":
+        print("match is tie")
+    elif person2=="rock":
+        print("person2 win")
+    elif person2=="paper":
+        print("person1 wins")
+else:
+    print("invalid inut")
+    
